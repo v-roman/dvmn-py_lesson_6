@@ -29,10 +29,8 @@ def main():
 
     score = 0
     for character in function:
-        if character == True:
-            score = score + 2
-        else:
-            score = score
+        if character:
+            score = += 2
     print('Рейтинг пароля:', score)
 
 if __name__ == "__main__":
